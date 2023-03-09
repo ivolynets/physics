@@ -1,0 +1,12 @@
+ENVIRONMENT_DIR="env"
+
+if [ -d "$ENVIRONMENT_DIR" ]; then
+  # Activate the Python virtual environment
+  source $ENVIRONMENT_DIR/bin/activate
+else
+  # Intialize the Python virtual environment
+  source init
+fi
+
+# Run Jupyter notebook
+jupyter notebook

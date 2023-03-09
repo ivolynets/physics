@@ -1,0 +1,11 @@
+ENVIRONMENT_DIR="env"
+
+# Create the Python virtual environment
+pip install virtualenv
+virtualenv $ENVIRONMENT_DIR
+
+# Activate the Python virtual environment
+source $ENVIRONMENT_DIR/bin/activate
+
+# Install dependencies
+pip install scipy matplotlib jupyter

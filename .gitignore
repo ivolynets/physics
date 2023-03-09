@@ -1,0 +1,12 @@
+# Python virtual environment
+env
+
+# Jupyter files
+.ipynb_checkpoints
+
+# Backup files
+*.bkp
+
+# MacOS system files
+.DS_Store
+
