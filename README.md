@@ -2,7 +2,7 @@
 
 The project contains [Jupyter notebooks](https://jupyter.org) notebooks with calclations for certain basic physics phenomena:
 
-* Ballistics
+* [Ballistics](ballistics/Ballistic Trajectory.ipynb)
 
 ## Environment Conviguration
 
